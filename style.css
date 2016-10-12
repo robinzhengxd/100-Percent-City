@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { margin:0;
+padding:0; }
+
+/*------------------------------
+COMMENT TEMPLATE
+-------------------------------*/
+
+/*-------------------------------------------ALL PAGES------------------------------------------*/
+
+body {
+	background-image:url();
+}
+
+/*-----------------
+Typography
+------------------*/
+
+h1 {
+	font-family: 'Sue Ellen Francisco', cursive;
+	text-align: center;
+	font-size:85px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	}
+
+h2 {
+	font-family: 'Assistant', sans-serif;
+	font-size:70px;
+	font-weight:bolder;
+	}
+
+h3 {
+	font-family: 'Sue Ellen Francisco', cursive;
+	text-align: center;
+	font-size:25px;
+	text-transform:uppercase;
+}
+
+p {
+	font-family: 'Assistant', sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+	}
+
+/*-----------------
+Nav Bar
+------------------*/
+
+h3.menu-item {
+	font-size:1em;
+	font-family: 'Sue Ellen Francisco', cursive;
+	text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color:#020202;
+    
+	position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:1;
+}
+
+
+li {
+    display: inline;
+    float: right;
+	}
+
+
+li a {
+    display: block;
+    color: #90A341;
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration: none;
+	list-style-type: none;
+}
+
+li.divider {
+	margin: 0px 5px;
+}
+
+
+/*-----------------
+Nav Bar Hover State
+------------------*/
+
+a#nav-home:hover  {
+	color:#fff;
+}
+
+a#nav-airforce:hover  {
+	color:#1B75B9;
+}
+
+a#nav-berliners:hover  {
+	color:#9C1F63;
+}
+
+a#nav-western-allies:hover  {
+	color:#2B388D;
+}
+
+a#nav-soviet-union:hover  {
+	color:#8E278C;
+}
+
+
+	
+
+/*-----------------------------------------ABOUT SECTION-----------------------------------------*/
+
+/*-----------------
+Page Title
+------------------*/
+
+
+/*-----------------
+Articles
+------------------*/
+
+
+h2.article-header {
+	
+	    text-align: center;
+		font-size:20px;
+		font-family: 'Fjalla One', sans-serif;
+		font-weight:700;
+		border-bottom:solid #2B388F medium;
+		padding-bottom: 20px;
+    	margin: 0 25%;
+    	margin-bottom: 20px;
+		line-height: 1.8;
+		letter-spacing:2px;
+		text-transform:uppercase;
+
+}
+
+p.body-copy {
+		font-family: 'Merriweather', serif;
+		font-size:18px;
+		text-align: justify;
+		line-height: 1.8;
+}
+
+
+
+/*-----------------
+ Images
+------------------*/
+	
+body#Home-Page .container {
+	background:url(images/background-home.png) no-repeat center top;
+	width:100%;
+	height:auto;
+	background-size: contain;
+
+}
+
+
+
+/*--------------------------------------PROCESS----------------------------------*/
+
+
+
+/*--------------------------------------PERFORMANCE----------------------------------*/
+
+
+
+/*--------------------------------------RECEPTION----------------------------------*/
+
+
+  
+/*--------------------------------------RESPONSIVE / MEDIA QUERY----------------------------------*/
+
+
+@media screen and (max-width: 1150px) {
+    h1#Site-title-Berlin, h1#Site-title-Airlift {
+    font-size: 45px;
+	letter-spacing: 75px;
+    }
+	
+	
+}
+
+@media screen and (min-width: 1950px) {
+	
+	
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+
+}
+
+
+/*--------------------------------------FLEXSLIDER----------------------------------*/
+
