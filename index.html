@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>100 Percent City</title>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,800|Sue+Ellen+Francisco" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:100,300,400,800|Sue+Ellen+Francisco" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 
 
 
-<!-------------------------------------- NAV BAR------------------------------------------->
+<!--------------------------------------NAV BAR------------------------------------------->
 
 <ul>
   <li><h3 class="menu-item"><a href="#reception">RECEPTION</a></h3></li>
@@ -31,20 +31,31 @@
   <li><h3 class="menu-item"><a href="#process">PROCESS</a></h3></li>
   	<li class="divider"> <h3> / </h3> </li>
   <li><h3 class="menu-item"><a href="#about">ABOUT</a></h3></li>
-  <li style="float:left"> <div> <!--logo image--> </div> </li>
+  <li style="float:left"> <div style="padding-left:40px;padding-top:11px;"> <!--logo image--><img src="images/logo.png" width="40" height="auto" alt="logo"/> </div> </li>
 </ul>
 
 <!--------------------------------------INTRO SECTION------------------------------------------->
 
-<div class="row" style="height:500px">
+<div class="container-fluid">
+<div class="row" style="height:1200px">
   <div class="col-sm-12">
-  
+  	<div id="Container">
+    <div id="Video">
+    <video preload="preload" id="video" autoplay loop>
+    <source src="video/Brussels-2.mp4" type="video/mp4"> </source>
+    <source src="/video/avideotodisplay.m4v" type="video/m4v"></source>
+    </video>
+    <div id="Message">
+    <h1>Your text to display</h1>
+    </div>
+    </div>
+    </div>
   </div>
 </div>
     
     
 <!--------------------------------------ABOUT SECTION------------------------------------------->
-<div class="container">
+
 
   
  <!--Section Title: "Meet the Creators" -->
@@ -53,40 +64,39 @@
   <div class="col-sm-12">
       	<h1>MEET THE CREATORS</h1> 
         <p> We like to think of ourselves are people who constantly try to expand the limits of what can be understood as theater.</p>
-       
   </div>
   <div class="col-sm-12">
-      	<div class="section-image">
-        <!--image-->
-        </div>
+  	<img src="images/banner1.jpg" width="100%" height="auto" alt="rimini-protokoll"/>
   </div>
 </div>
-   
+
  <!--Section Description-->
    <div class="row">
     <div class="col-sm-12">
-    <p> Helgard Haug, Stefan Kaegi, and Daniel Wetzel studied at the Institut für Angewandte Theaterwissenschaft in Giessen and work together under the name of Rimini Protokoll. They are recognized as being among the leaders and creators of the theatermovement known as Reality Trend (Theater der Zeit), which has exerted a powerful influence on the alternative theater scene. Their aim is to break open our reality, showing it in all its facets as a way of enabling us to interrogate it. </p>
+    <p style="padding: 40px 45px"> Helgard Haug, Stefan Kaegi, and Daniel Wetzel studied at the Institut für Angewandte Theaterwissenschaft in Giessen and work together under the name of Rimini Protokoll. They are recognized as being among the leaders and creators of the theatermovement known as Reality Trend (Theater der Zeit), which has exerted a powerful influence on the alternative theater scene. Their aim is to break open our reality, showing it in all its facets as a way of enabling us to interrogate it. </p>
      </div>
    </div>
    
  <!--Creator Profiles-->
    
-<div class="row">
+<div class="row special">
+
    	<div class="col-sm-4"> 
-    	<div id="Stephan"> <!--image--> </div>
+    	<div class="image-cropper"> <img src="images/Pr-Stefan-Kaegi.jpg" width="195" height="237" alt="stephan"/></div>
   		<h3> STEPHAN </h3>
-        <p>Stefan Kaegi is a founding member of Rimini Protokoll who produce documentary theatre plays, radio shows and works in the urban environment. Using research, public auditions and conceptual processes, giving voice to experts, who are not trained actors but have something to tell. Since 2003 Rimini Protokoll have been Artists-in-Residence at HAU Berlin.</p>
+        <p style="padding-bottom: 50px">Stefan Kaegi is a founding member of Rimini Protokoll who produce documentary theatre plays, radio shows and works in the urban environment. Using research, public auditions and conceptual processes, giving voice to experts, who are not trained actors but have something to tell. Since 2003 Rimini Protokoll have been Artists-in-Residence at HAU Berlin.</p>
     </div>
     <div class="col-sm-4"> 
-    	<div id="Helgard"> <!--image--> </div>
+    	<div class="image-cropper"> <img src="images/Pr-Helgard-Haug.jpg" width="195" height="237" alt="helgard"/></div>
   		<h3> HELGARD </h3>
-        <p> Since 1996, Helgard Haug has been involved with projects which are on the borderline of theatre, documentation, radio play and the applied arts. In 2000 she co-founded Rimini Protokoll, producing theatre pieces and works in the urban environment in a variety of collaborative partnerships. Using research, auditions and conceptual processes, allowing “experts” to find their unique voice. </p>
+        <p style="padding-bottom: 50px"> Since 1996, Helgard Haug has been involved with projects which are on the borderline of theatre, documentation, radio play and the applied arts. In 2000 she co-founded Rimini Protokoll, producing theatre pieces and works in the urban environment in a variety of collaborative partnerships. Using research, auditions and conceptual processes, allowing “experts” to find their unique voice. </p>
     </div>
     <div class="col-sm-4"> 
-    	<div id="Daniel"> <!--image--> </div>
+    	<div class="image-cropper"> <img src="images/Pr-Daniel-Wetzel.jpg" width="195" height="237" alt="daniel"/></div>
   		<h3> DANIEL </h3>
-        <p>Daniel Wetzel is co-founder and member of the avantgarde theatre company Rimini Protokoll. Since 2004 the company has been artist in residence at the Hebbel am Ufer (HAU) in Berlin. Rimini Protokoll‘s original plays won several international awards like the European Theatre Award in 2007 and the Silver Lion at the International Theatre Biennale Festival in Venice in 2011. </p>
+        <p style="padding-bottom: 50px">Daniel Wetzel is co-founder and member of the avantgarde theatre company Rimini Protokoll. Since 2004 the company has been artist in residence at the Hebbel am Ufer (HAU) in Berlin. Rimini Protokoll‘s original plays won several international awards like the European Theatre Award in 2007 and the Silver Lion at the International Theatre Biennale Festival in Venice in 2011. </p>
     </div>
+
 </div>
 
  <!--Q&A: "How Did We Come Up With Rimini Protokol?"-->
@@ -100,7 +110,7 @@
    </div>
     
    <div class="col-sm-5">
-   		<p> Our office is in Hebbel am Ufer Theater in Berlin. We’ve been artists in residence here for almost 10 years now. So, when we look out our window, we see Kreuzberg. It’s a neighborhood of Berlin, where almost half of the inhabitants are from Turkey, and the rest of them are punks and artists from overseas looking for cheap studio spaces.
+   		<p style="padding-top: 30px"> Our office is in Hebbel am Ufer Theater in Berlin. We’ve been artists in residence here for almost 10 years now. So, when we look out our window, we see Kreuzberg. It’s a neighborhood of Berlin, where almost half of the inhabitants are from Turkey, and the rest of them are punks and artists from overseas looking for cheap studio spaces.
 After our first two years of collaboration, we were forced to be baptized. It was a deadline for a publication in 2001. We were told that every being needs a name! We’re interested in protocols – we follow them, we research them, we write them. “Rimini” just sounded like a suitable first name!
 So “Rimini Protokoll” was born as a label for the works of Helgard Haug, Stefan Kaegi and Daniel Wetzel.
 Some people call us documentary theater makers, but we like to think of ourselves, as people who constantly try to expand the limits of what can be understood as theater.
@@ -110,20 +120,142 @@ Some people call us documentary theater makers, but we like to think of ourselve
    <div class="col-sm-1">
    </div>
 
-</div>
+</div><!--row-->
  
 
 
-</div><!--container-->
+
 
 <!--------------------------------------PROCESS SECTION------------------------------------------->
 
 
+<!--Section Title: "A Unique Process" -->
+ 
+<div class="row">
+  <div class="col-sm-12">
+      	<h1>A UNIQUE PROCESS</h1> 
+        <p style="padding: 40px 45px"> The cast is composed of people who, outside a frame like this show, would disagree on certain points and may not even want to share the same space. </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12" style="height:500px;">
+      	<!--Video -->
+  </div>
+ </div>
 
+   
+ 
+  
+ <!--Casting and Rehearsal-->
+<div class="row" style="padding:100px 130px">
+    <div class="col-sm-4">
+    <h3 style="text-align:left"> ////////// CASTING and REHEARSAL </h3>
+    <p> The process of the casting for the shows is this snowball game of generating statistical data about the city and its population. Apart from the five statistical criteria we use to generate the census grid that everyone on stage has to fit within, one of the hidden filters that we apply on top is that theater enthusiasts or actors should not be part of the cast more than a proper mirror of the census would allow, which tends to be not more than one or two percent. 
+
+You don’t easily get 100 people together for many rehearsals. Especially as most of them have jobs and other commitments. But we can do with about 5 rehearsals of 4-5 hours. Rehearsals don’t include any kind of text-learning or actors training. People just have to be who they are, focus on what’s being said and follow some instructions that are prompted. As we insist on them getting paid by the theater a small fee, we can also expect them to commit and be there. </p>
+     </div>
+     <div class="col-sm-4">
+     
+         <div class="stat">
+            <h2 style="text-align:center"> 45% </h2>
+            <p> of the cast were interviewed in their homes </p>
+        </div>
+     	
+        <div class="stat">
+            <h2 style="text-align:center"> 45% </h2>
+            <p> of the cast were interviewed in their homes </p>
+        </div>
+        
+        <div class="stat">
+            <h2 style="text-align:center"> 45% </h2>
+            <p> of the cast were interviewed in their homes </p>
+        </div>
+     </div>
+     
+   <div class="col-sm-4">
+     	
+        <div class="circle">
+      		<h3 style="text-align:center; text-transform:initial;"> SNAPSHOT: The 100 in Melbourne </h3>
+         </div>
+        
+                
+        <div class="stat">
+            <h2 style="text-align:center"> 45% </h2>
+            <p> of the cast were interviewed in their homes </p>
+        </div>
+        
+        <div class="stat">
+            <h2 style="text-align:center"> 45% </h2>
+            <p> of the cast were interviewed in their homes </p>
+        </div>
+     </div>
+    
+</div><!--row-->
+
+ <!--Search Criteria-->
+<div class="row" style="padding:0 130px">
+   <div class="col-sm-12">
+    <h3 style="text-align:left"> ////////// SEARCH CRITERIA </h3>
+   </div>
+   <div class="col-sm-12" style="height:500px;">
+   <!--infographic-->
+   </div>
+ </div>
+ 
+ 
+ 
+ <!--Q&A: "Finding 100 locals to fit each city’s demographics?"-->
+ 	
+<div class="row">
+   <div class="col-sm-1">
+   </div>
+   
+   <div class="col-sm-5">
+   		<h2> Finding 100 locals to fit each city’s demographics </h2>
+   </div>
+    
+   <div class="col-sm-5">
+   		<p style="padding-top: 30px"> Could you explain your decision to gather participants through word of mouth and challenges faced? Yes, sometimes it’s only possible to mention an obvious lack and thus to mention the limits of the game we played. The rules must break at some point. Or do you know somebody from Bangladesh who is a lone-parent between 60 and 70 years old and lives in the opposite corner of the city you live in? Probably only some dozens of citizens match those criteria. So we have to help. We go through engaged communities in certain neighborhoods or – depending on the age group – we contact homes for the old, or schools. On stage we address the struggle to find people because it tells us something about the city, too. </p>
+   </div>
+    
+   <div class="col-sm-1">
+   </div>
+
+</div><!--row-->
+ 
+ 
+ <div class="row">
+  <div class="col-sm-12">
+  	<img src="images/banner2.jpg" width="100%" height="auto" alt="rimini-protokoll"/>
+  </div>
+</div>
+
+ 
 
 <!------------------------------------PERFORMANCE SECTION------------------------------------------->
 
+<!--Section Title: "Live on Stage" -->
+ 
+<div class="row">
+  <div class="col-sm-12">
+      	<h1>LIVE ON STAGE</h1> 
+        <p> 100% City is a show that has loud audiences. It almost feels like a sports game. </p>
+  </div>
+  <div class="col-sm-12 banner3">
+  		<div class="circle" style="text-align:center; text-transform:initial;">
+             <h2 > 25 </h2>
+             <p> Cities Worldwide and Counting </p>
+  		</div>
+  </div>
+</div>
 
+
+ <!--Section Description-->
+   <div class="row">
+    <div class="col-sm-12">
+    <p style="padding: 40px 45px; text-align:center;"> <span class="year">2008</span> Berlin <span class="year">2010</span> Vienna  <span class="year">2011</span> Colgne  /  Karlsruhe  <span class="year">2012</span> Zurich  /  London  /  Braunschweig  /  Melbourne  <span class="year">2013</span> Kraków  /  San Diego  /  Dresden  /  Copenhagen  /  Cork  <span class="year">2014</span> Amsterdam  /  Riga  /  Philadelphia  /  Darwin  /  Paris  /  Brussels  /  Gwangju  <span class="year">2015</span> Yogyakarta  /  Penang  <span class="year">2016</span> Brisbane  /  São Paulo /  Salford </p>
+     </div>
+   </div>
 
 
 <!------------------------------------RECEPTION SECTION------------------------------------------->
@@ -131,7 +263,18 @@ Some people call us documentary theater makers, but we like to think of ourselve
 
 
 
-<!------------------------------------GET INVOLVED------------------------------------------->
+
+
+
+
+
+
+<!------------------------------------END------------------------------------------->
+
+
+
+</div><!--container-->
+
 
 
 
@@ -164,31 +307,20 @@ Some people call us documentary theater makers, but we like to think of ourselve
     
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    
+ 
 	<script src="js/jquery-1.11.3.min.js"></script>
     <script>
-	$( "#north" ).hover(function() {
-  		$( ".landing-image" ).toggleClass( "airforce");
-		$( ".nav-airforce" ).toggleClass( "active" );
-		$( ".Site-tagline-1" ).toggleClass( "active" );
-	});
-	$( "#west" ).hover(function() {
-  		$( ".landing-image" ).toggleClass( "western-allies");
-		$( ".nav-western-allies" ).toggleClass( "active" );
-	});
-	$( "#south" ).hover(function() {
-  		$( ".landing-image" ).toggleClass( "berliners");
-		$( ".nav-berliners" ).toggleClass( "active" );
-	});
-	$( "#east" ).hover(function() {
-  		$( ".landing-image" ).toggleClass( "soviet-union");
-		$( ".nav-soviet-union" ).toggleClass( "active" );
-	});
 	
+	
+
 	
     </script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="js/bootstrap.js"></script>
     <script src="js/jquery.flexslider.js"></script>
+    
+    
   </body>
 </html>

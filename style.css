@@ -11,9 +11,17 @@ COMMENT TEMPLATE
 /*-------------------------------------------ALL PAGES------------------------------------------*/
 
 body {
-	background-image:url();
+
+	background-repeat:repeat;
+	background-color:#020202;
 }
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+	}
+	
+	
 /*-----------------
 Typography
 ------------------*/
@@ -21,28 +29,43 @@ Typography
 h1 {
 	font-family: 'Sue Ellen Francisco', cursive;
 	text-align: center;
-	font-size:85px;
+	font-size:11em;
 	letter-spacing:2px;
 	text-transform:uppercase;
+	color:#90A341;
+	
 	}
 
 h2 {
 	font-family: 'Assistant', sans-serif;
-	font-size:70px;
+	font-size:5em;
 	font-weight:bolder;
+	color:#777A8C;
+	line-height: 1.1;
+	text-align: right;
+	background: -webkit-linear-gradient(#2F2F2F, #808041);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
 	}
 
 h3 {
 	font-family: 'Sue Ellen Francisco', cursive;
 	text-align: center;
-	font-size:25px;
+	font-size:1.75em;
 	text-transform:uppercase;
+	color:#90A341;
+	line-height: 1.4;
 }
 
 p {
 	font-family: 'Assistant', sans-serif;
-	font-size:18px;
-	font-weight:lighter;
+	font-size:1.1em;
+	font-weight:100;
+	color:#777A8C;
+	line-height: 1.7;
+
+	
 	}
 
 /*-----------------
@@ -67,6 +90,7 @@ ul {
     top: 0;
     width: 100%;
 	z-index:1;
+	opacity:0.85;
 }
 
 
@@ -114,19 +138,49 @@ a#nav-soviet-union:hover  {
 	color:#8E278C;
 }
 
+/*-----------------------------------------INTRO -----------------------------------------*/
 
+#Container {width: 100%; height: 360px; position: relative;}
+#Video,#Message {width: 100%; height: 360px; position: absolute; top: 0; left: 0;}
+#Message {text-shadow: 2px 2px 2px #000000; color:white; }
+#Message h1{font-size: 3em;color:#ffffff;text-align:center; padding:0.4em;}
+
+/*-----------------------------------------ABOUT -----------------------------------------*/
+
+.special {
 	
+	background:url(images/cartographer.png) repeat;
+	padding: 50px 130px;
+}
 
-/*-----------------------------------------ABOUT SECTION-----------------------------------------*/
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+	margin: 0 auto;
+	
+}
 
-/*-----------------
-Page Title
-------------------*/
+.image-cropper img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+
+
 
 
 /*-----------------
 Articles
-------------------*/
+
 
 
 h2.article-header {
@@ -151,12 +205,14 @@ p.body-copy {
 		text-align: justify;
 		line-height: 1.8;
 }
-
+------------------*/
 
 
 /*-----------------
  Images
-------------------*/
+
+	
+	
 	
 body#Home-Page .container {
 	background:url(images/background-home.png) no-repeat center top;
@@ -171,9 +227,44 @@ body#Home-Page .container {
 /*--------------------------------------PROCESS----------------------------------*/
 
 
+.stat {margin:65px 0}
+
+.stat p{
+	padding:0 20%; margin:-15px 0; text-align:center;
+}
+
+.circle {
+   
+    border:5px solid #1A1A1A;    
+    height:200px;
+	width:200px;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border-radius:50%;
+	margin: 0 auto;
+	padding: 30px 50px;
+
+}
+
 
 /*--------------------------------------PERFORMANCE----------------------------------*/
 
+.year {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size:1 em;
+	text-transform:uppercase;
+	color:#90A341;
+	padding: 0 4px;
+	letter-spacing: 2.5px;
+		}
+		
+.banner3 {
+	
+	background:url(images/banner3.jpg) no-repeat center ;
+	width:100%;
+	height:500px;
+	
+}
 
 
 /*--------------------------------------RECEPTION----------------------------------*/
